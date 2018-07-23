@@ -5,7 +5,7 @@ class File_work {
 
     public static void main(String args[]) throws Exception {
 
-        FileReader fReader = new FileReader("C://ololo//homework.txt");// путь к расположению файла. у меня такой :)
+        FileReader fReader = new FileReader("src/main/java/homework.txt");// путь к расположению файла. у меня такой :)
         Scanner scan = new Scanner(fReader);
 
         ArrayList<String> words = new ArrayList<String>();
